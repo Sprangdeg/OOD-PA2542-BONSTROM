@@ -1,0 +1,22 @@
+1. Briefly discuss each of these princiles. Are they necessary? What do they mean for a cloud service? What do they mean for a service using the cloud?
+
+2. Is this a complete set? Are there other [fundamental] principles that you expect for cloud computing?
+
+3. Some of these principles are based in technology, others are geared towards the cloud ownership business, and some are actually relevant for a cloud user. Moreover, some of them enables the other principles. Please discuss these relationships, and what this means for a cloud user.
+
+4. Elasic Scaling is one of the key principles. Please reason about the business implications of this.
+	4.1 Give examples of applications where a quick (within minutes) elastic scaling might be necessary.
+	4.2 Give examples of applications where a slower scaling would be more relevant.
+	4.3 If your application grows at a steady state, what does this mean for your scaling needs? Is “going to the cloud” still the best option?
+
+5. Metered Billing (“Resource usage billed only as used”) is another one of the key principles.
+	5.1 Let’s say you have an application running on three machines plus a load balancer as illustrated in Figure 1. What would be the cost per hour, day, and month for this setup if you ran it yourself (Remember that network access, routers, and cooling etc. also cost money)?
+	5.2 Explore the different licensing models on Amazon EC2. What would the same setup cost to run as a T2.large or M3.large setup?
+	5.3 What are the differences between Amazon’s “on-demand” and the “Reserved Instance”?
+	5.4 Since there is loadbalancer, we may guess that this application probably uses the CPU extensively. What is Amazon’s policies regarding CPU utilisation? Please spend some time trying to find an answer to this before “cheating” by reading this footnote: 1
+	5.5 What are the consequences of Amazon’s CPU policy on a running application?
+	5.6 What can you do about it?
+
+6. Different cloud providers offer different services (x As A Service).
+	6.1 Briefly describe each of Software As A Service, Framework As A Service, Platform As A Service, and Infrastructure As A Service.
+	6.2 Give examples of applications that use each of these.
